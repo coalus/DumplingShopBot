@@ -1,0 +1,30 @@
+{
+  "name": "dumplingshopbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "app": "node src/app.js",
+    "lint": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coalus/DumplingShopBot.git"
+  },
+  "author": "Koala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coalus/DumplingShopBot/issues"
+  },
+  "homepage": "https://github.com/coalus/DumplingShopBot#readme",
+  "dependencies": {
+    "@grammyjs/conversations": "github:grammyjs/conversations",
+    "dotenv": "^16.0.3",
+    "grammy": "^1.11.2",
+    "ton": "^12.1.5"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}

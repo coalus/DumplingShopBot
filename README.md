@@ -1,6 +1,7 @@
 # [@DumplingsTonBot](https://t.me/DumplingsTonBot) code
 
 A bot created for an example of accepting payments on TON, in the form of a dumpling shop🥟
+
 Article with a full explanation of the bot's work: https://tonspace.co/develop/dapps/payment-processing/accept-payments-in-a-telegram-bot-js/
 
 # Installation and local launch
@@ -19,4 +20,3 @@ Article with a full explanation of the bot's work: https://tonspace.co/develop/d
 # License
 
 MIT — use for any purpose. Would be great if you could leave a note about the original developers. Thanks!
-

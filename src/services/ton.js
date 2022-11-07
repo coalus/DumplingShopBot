@@ -13,7 +13,6 @@ export async function verifyTransactionExistance(toWallet, value, comment) {
 
   const transactions = await httpClient.getTransactions(toWallet, {
     limit: 100,
-    archival: true,
   });
   let incomingTransactions = transactions.filter(
     (tx) => Object.keys(tx.out_msgs).length === 0
